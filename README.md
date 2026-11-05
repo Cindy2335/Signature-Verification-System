@@ -46,14 +46,14 @@ Supported image formats:
 5. **Pathfinding:** Dijkstra's algorithm.
 
    ## Technologies and Concepts
-1. Java
-2. Graph Theory
-3. Image Processing
-4. Otsu Thresholding
-5. Zhang-Suen Thinning Algorithm
-6. Dijkstra's Shortest Path Algorithm
-7. Object-Oriented Programming
-7. Self-Implemented Data Structures
+- Java
+- Graph Theory
+- Image Processing
+- Otsu Thresholding
+- Zhang-Suen Thinning Algorithm
+- Dijkstra's Shortest Path Algorithm
+- Object-Oriented Programming
+- Self-Implemented Data Structures
    
 
 
