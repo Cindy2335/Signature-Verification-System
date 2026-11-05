@@ -4,6 +4,17 @@ Manual verification is slow, inconsistent, and prone to human error — especial
 
 The system automates this verification process using graph-based image analysis, with no machine learning or third-party AI libraries — only data structures that are self implemented.
 
+## Screenshots
+
+
+<img src= "Screenshots/Screenshot 2026-11-03 232652.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232754.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232818.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232841.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 233518.png" width=500>
+
+
+
 
 
 ## How To Use The System
@@ -28,31 +39,24 @@ Supported image formats:
 
 ## Algorithm Summary
 
-1. Convert the image to grayscale.
-2. Use Otsu thresholding to separate ink from background.
-3. Crop the image to the ink area.
-4. Skeletonize the signature with Zhang-Suen thinning.
-5. Convert the skeleton into a graph:
+1. **Image preprocessing:** Grayscale conversion, Otsu thresholding and cropping.
+2. **Skeletonisation:** Zhang-Suen thinning.
+3. **Graph construction:** Endpoints, junctions and weighted stroke-chain edges.
+4. **Graph comparison:** Topology, degree histograms, edge lengths, shortest-path profiles and node geometry.
+5. **Pathfinding:** Dijkstra's algorithm.
 
-   * degree 1 pixels become endpoints
-   * degree 3+ pixels become junctions
-   * stroke chains become weighted edges
-6. Compare two graphs using topology counts, graph degree histogram, normalized
-edge length profile, endpoint shortest-path profile, and normalized node
-geometry.
-7. Use Dijkstra pathfinding to find shortest paths and the longest
-endpoint-to-endpoint flow path.
+   ## Technologies and Concepts
+1. Java
+2. Graph Theory
+3. Image Processing
+4. Otsu Thresholding
+5. Zhang-Suen Thinning Algorithm
+6. Dijkstra's Shortest Path Algorithm
+7. Object-Oriented Programming
+7. Self-Implemented Data Structures
+   
 
 
 Datasets: [**https://www.kaggle.com/datasets/pranjitlahon/signatures**](https://www.kaggle.com/datasets/pranjitlahon/signatures)
-
-##Screenshots
-
-
-<img src= "Screenshots/Screenshot 2026-11-03 232652.png" width=500>
-<img src= "Screenshots/Screenshot 2026-11-03 232754.png" width=500>
-<img src= "Screenshots/Screenshot 2026-11-03 232818.png" width=500>
-<img src= "Screenshots/Screenshot 2026-11-03 232841.png" width=500>
-<img src= "Screenshots/Screenshot 2026-11-03 233518.png" width=500>
 
 
