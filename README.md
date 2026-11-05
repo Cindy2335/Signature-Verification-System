@@ -47,5 +47,13 @@ endpoint-to-endpoint flow path.
 Datasets: [**https://www.kaggle.com/datasets/pranjitlahon/signatures**](https://www.kaggle.com/datasets/pranjitlahon/signatures)
 
 ##Screenshots
+
+
 <img src= "Screenshots/Screenshot 2026-11-03 232652.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232754.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232818.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232841.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 232841.png" width=500>
+<img src= "Screenshots/Screenshot 2026-11-03 233518.png" width=500>
+
 
